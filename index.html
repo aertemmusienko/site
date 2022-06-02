@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>site</title>
+		<link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Check_green_icon.svg/2048px-Check_green_icon.svg.png"/>
+
+<style type="text/css">
+
+	header{
+	height: 200px;	
+	background-color: orange;
+	}
+	.m{
+		width: 24%;
+		height: 2000px;
+		background-color: violet;
+		float: left;
+	}.c{
+		width: 76%;
+		height: 2000px;
+		background-color: blueviolet;
+		float: left;
+
+	}
+	footer{
+		height: 150px;
+		background-color: darkred;
+		clear: both;
+	}
+	h1{
+		font-size: 75px;
+		color: white;
+		text-align: center;
+	}h2{
+		color: white;
+		font-size: 75px;
+		text-align: center;
+	}div{
+		font-size: 39px;
+		color: white;
+		text-align: center;
+	}
+	body {
+    font-family: sans-serif;
+    background-color: #81d4fa;
+    font-weight: bold;
+}
+
+
+
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    margin: 20px;
+  
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: greenyellow;
+    color: grey;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: green;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+</style>
+</head>
+<body>
+<header><h1>Сайт Артема</h1></header>
+<div class="m" >
+	<h2>мои работы</h2>
+	 
+    <a href="base.html" target="_blank" class="btn btn-white btn-animate">индэкс</a>
+    <a href="gradient.html" target="_blank" class="btn btn-white btn-animate">градиент</a>
+    <a href="risynki.html" target="_blank"  class="btn btn-white btn-animate">рисунки</a>
+    <a href="run.html" target="_blank" class="btn btn-white btn-animate">рядки </a>
+    <a href="simvol.html" target="_blank" class="btn btn-white btn-animate">символ </a>
+     <a href="pas.html" target="_blank" class="btn btn-white btn-animate">списки</a>
+    <a href="form.html" target="_blank" class="btn btn-white btn-animate">блоки </a>
+    <a href="izi.html" target="_blank" class="btn btn-white btn-animate">первый js </a>
+    <a href="lopo.html" target="_blank" class="btn btn-white btn-animate">генератор</a>
+    <a href="eeee.html" target="_blank" class="btn btn-white btn-animate">дипозон чисел</a>
+    <a href="er.html" target="_blank" class="btn btn-white btn-animate">сумма чисел</a>
+    <a href="ter.html" target="_blank" class="btn btn-white btn-animate">вопрос ответ</a>
+    <a href="dudu.html" target="_blank" class="btn btn-white btn-animate">корень уровнения</a>
+   
+
+
+</div>
+<div class="c" > о мне</div>
+
+<footer>
+<h2>мои контакты</h2>
+</footer>
+</body>
+</html>
